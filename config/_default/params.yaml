@@ -62,8 +62,8 @@ address_format: en-us
 
 # Site features
 
-highlight: false
-math: false
+highlight: true
+math: true
 diagram: false
 privacy_pack: false
 show_related:
