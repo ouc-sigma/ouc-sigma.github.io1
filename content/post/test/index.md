@@ -9,7 +9,7 @@ authors:
 image:
   filename: avatar.jpg
   focal_point: Smart
-  preview_only: false
+  preview_only: true
 ---
 
 # Welcome to Marxico
