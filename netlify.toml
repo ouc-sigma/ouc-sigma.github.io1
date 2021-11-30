@@ -1,5 +1,5 @@
 [build]
-  command = "hugo -d docs --gc --minify -b $URL"
+  command = "hugo -d docs"
   publish = "docs"
 
 [build.environment]
