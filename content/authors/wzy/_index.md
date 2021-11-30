@@ -1,5 +1,5 @@
 ---
-title: wzy1
+title: wzy11
 role: ai
 avatar_filename: 51092.jpg
 bio: My research interests include distributed robotics, mobile computing and
