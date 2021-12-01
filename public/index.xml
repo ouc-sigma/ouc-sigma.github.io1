@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Wowchemy Research Group</title>
+    <title>SIGMA@OUC</title>
     <link>https://ouc-sigma.github.io/</link>
       <atom:link href="https://ouc-sigma.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Wowchemy Research Group</description>
+    <description>SIGMA@OUC</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>@ 2021 SIGMA</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ouc-sigma.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
-      <title>Wowchemy Research Group</title>
+      <title>SIGMA@OUC</title>
       <link>https://ouc-sigma.github.io/</link>
     </image>
     
@@ -24,6 +24,160 @@
 &lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Further event details, including page elements such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://ouc-sigma.github.io/post/test/</link>
+      <pubDate>Fri, 26 Nov 2021 14:19:55 +0000</pubDate>
+      <guid>https://ouc-sigma.github.io/post/test/</guid>
+      <description>&lt;h1 id=&#34;welcome-to-marxico&#34;&gt;Welcome to Marxico&lt;/h1&gt;
+&lt;p&gt;@(Sample notebook)[Marxico|Manual|Markdown]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Marxico&lt;/strong&gt; is a delicate Markdown editor for Evernote. With reliable storage and sync powered by Evernote, &lt;strong&gt;Marxico&lt;/strong&gt; offers greate writing experience.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Versatile&lt;/strong&gt; - supporting code highlight, &lt;em&gt;LaTeX&lt;/em&gt; &amp;amp; flow charts,  inserting images &amp;amp; attachments by all means.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exquisite&lt;/strong&gt; -  neat but powerful editor, featuring offline docs, live preview, and offering the &lt;a href=&#34;http://marxi.co/client_en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;desktop client&lt;/a&gt; and offline &lt;a href=&#34;https://chrome.google.com/webstore/detail/kidnkfckhbdkfgbicccmdggmpgogehop&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chrome App&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sophisticated&lt;/strong&gt; - deeply integrated with Evernote, supporting notebook &amp;amp; tags, two-way bind editing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h2 id=&#34;introducing-markdown&#34;&gt;Introducing Markdown&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Markdown is a plain text formatting syntax designed to be converted to HTML. Markdown is popularly used as format for readme files, &amp;hellip; or in text editors for the quick creation of rich text documents.  - &lt;a href=&#34;http://en.wikipedia.org/wiki/Markdown&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As showed in this manual, it uses hash(#) to identify headings, emphasizes some text to be &lt;strong&gt;bold&lt;/strong&gt; or &lt;em&gt;italic&lt;/em&gt;. You can insert a &lt;a href=&#34;http://www.example.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt; , or a footnote&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Serveral advanced syntax are listed below, please press &lt;code&gt;Ctrl + /&lt;/code&gt; to view Markdown cheatsheet.&lt;/p&gt;
+&lt;h3 id=&#34;code-block&#34;&gt;Code block&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;@requires_authorization
+def somefunc(param1=&#39;&#39;, param2=0):
+    &#39;&#39;&#39;A docstring&#39;&#39;&#39;
+    if param1 &amp;gt; param2: # interesting
+        print &#39;Greater&#39;
+    return (param2 - param1 + 1) or None
+class SomeClass:
+    pass
+&amp;gt;&amp;gt;&amp;gt; message = &#39;&#39;&#39;interpreter
+... prompt&#39;&#39;&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;latex-expression&#34;&gt;LaTeX expression&lt;/h3&gt;
+&lt;p&gt;$$	x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$&lt;/p&gt;
+&lt;h3 id=&#34;table&#34;&gt;Table&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Item&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Value&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Qty&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Computer&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;1600 USD&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Phone&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;12 USD&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Pipe&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;1 USD&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;234&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
+&lt;h4 id=&#34;flow-charts&#34;&gt;Flow charts&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-flow&#34;&gt;st=&amp;gt;start: Start
+e=&amp;gt;end
+op=&amp;gt;operation: My Operation
+cond=&amp;gt;condition: Yes or No?
+
+st-&amp;gt;op-&amp;gt;cond
+cond(yes)-&amp;gt;e
+cond(no)-&amp;gt;op
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;sequence-diagrams&#34;&gt;Sequence diagrams&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sequence&#34;&gt;Alice-&amp;gt;Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob--&amp;gt;Alice: I am good thanks!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can find more information:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;about &lt;strong&gt;Sequence diagrams&lt;/strong&gt; syntax &lt;a href=&#34;http://bramp.github.io/js-sequence-diagrams/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;about &lt;strong&gt;Flow charts&lt;/strong&gt; syntax &lt;a href=&#34;http://adrai.github.io/flowchart.js/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;checkbox&#34;&gt;Checkbox&lt;/h3&gt;
+&lt;p&gt;You can use &lt;code&gt;- [ ]&lt;/code&gt; and &lt;code&gt;- [x]&lt;/code&gt; to create checkboxes, for example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Item1&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Item2&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Item3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Currently it is only partially supported. You can&amp;rsquo;t toggle checkboxes in Evernote. You can only modify the Markdown in Marxico to do that. Next version will fix this.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;dancing-with-evernote&#34;&gt;Dancing with Evernote&lt;/h3&gt;
+&lt;h4 id=&#34;notebook--tags&#34;&gt;Notebook &amp;amp; Tags&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Marxico&lt;/strong&gt; add &lt;code&gt;@(Notebook)[tag1|tag2|tag3]&lt;/code&gt; syntax to select notebook and set tags for the note. After typing &lt;code&gt;@(&lt;/code&gt;, the notebook list would appear, please select one from it.&lt;/p&gt;
+&lt;h4 id=&#34;title&#34;&gt;Title&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Marxico&lt;/strong&gt; would adopt the first heading encountered as the note title. For example, in this manual the first line &lt;code&gt;Welcome to Marxico&lt;/code&gt; is the title.&lt;/p&gt;
+&lt;h4 id=&#34;quick-editing&#34;&gt;Quick Editing&lt;/h4&gt;
+&lt;p&gt;Note saved by &lt;strong&gt;Marxico&lt;/strong&gt; in Evernote would have a red ribbon button on the top-right corner. Click it and it would bring you back to &lt;strong&gt;Marxico&lt;/strong&gt; to edit the note.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Currently &lt;strong&gt;Marxico&lt;/strong&gt; is unable to detect and merge any modifications in Evernote by user. Please go back to &lt;strong&gt;Marxico&lt;/strong&gt; to edit.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;data-synchronization&#34;&gt;Data Synchronization&lt;/h4&gt;
+&lt;p&gt;While saving rich HTML content in Evernote, &lt;strong&gt;Marxico&lt;/strong&gt; puts the Markdown text in a hidden area of the note, which makes it possible to get the original text in &lt;strong&gt;Marxico&lt;/strong&gt; and edit it again. This is a really brilliant design because:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;it is beyond just one-way exporting HTML which other services do;&lt;/li&gt;
+&lt;li&gt;and it avoids privacy and security problems caused by storing content in a intermediate server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Privacy Statement: All of your notes data are saved in Evernote. Marxico doesn&amp;rsquo;t save any of them.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;offline-storage&#34;&gt;Offline Storage&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Marxico&lt;/strong&gt; stores your unsynchronized content locally in browser storage, so no worries about network and broswer crash. It also keeps the recent file list you&amp;rsquo;ve edited in &lt;code&gt;Document Management(Ctrl + O)&lt;/code&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Although browser storage is reliable in the most time, Evernote is born to do that. So please sync the document regularly while writing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;shortcuts&#34;&gt;Shortcuts&lt;/h2&gt;
+&lt;p&gt;Help    &lt;code&gt;Ctrl + /&lt;/code&gt;
+Sync Doc    &lt;code&gt;Ctrl + S&lt;/code&gt;
+Create Doc    &lt;code&gt;Ctrl + Alt + N&lt;/code&gt;
+Maximize Editor    &lt;code&gt;Ctrl + Enter&lt;/code&gt;
+Preview Doc &lt;code&gt;Ctrl + Alt + Enter&lt;/code&gt;
+Doc Management    &lt;code&gt;Ctrl + O&lt;/code&gt;
+Menu    &lt;code&gt;Ctrl + M&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Bold    &lt;code&gt;Ctrl + B&lt;/code&gt;
+Insert Image    &lt;code&gt;Ctrl + G&lt;/code&gt;
+Insert Link    &lt;code&gt;Ctrl + L&lt;/code&gt;
+Convert Heading    &lt;code&gt;Ctrl + H&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;about-pro&#34;&gt;About Pro&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Marixo&lt;/strong&gt; offers a free trial of 10 days. After that, you need to &lt;a href=&#34;http://marxi.co/purchase.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;purchase&lt;/a&gt; the Pro service. Otherwise, you would not be able to sync new notes. Previous notes can be edited and synced all the time.&lt;/p&gt;
+&lt;h2 id=&#34;credits&#34;&gt;Credits&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Marxico&lt;/strong&gt; was first built upon &lt;a href=&#34;http://dillinger.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dillinger&lt;/a&gt;, and the newest version is almost based on the awesome &lt;a href=&#34;http://stackedit.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;StackEdit&lt;/a&gt;. Acknowledgments to them and other incredible open source projects!&lt;/p&gt;
+&lt;h2 id=&#34;feedback--bug-report&#34;&gt;Feedback &amp;amp; Bug Report&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Twitter: &lt;a href=&#34;https://twitter.com/gock2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@gock2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Email: &lt;a href=&#34;mailto:hustgock@gmail.com&#34;&gt;hustgock@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Thank you for reading this manual. Now please press &lt;code&gt;Ctrl + M&lt;/code&gt; and click &lt;code&gt;Link with Evernote&lt;/code&gt;. Enjoy your &lt;strong&gt;Marxico&lt;/strong&gt; journey!&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;This is a demo footnote. Read the &lt;a href=&#34;https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide#footnotes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MultiMarkdown Syntax Guide&lt;/a&gt; to learn more. Note that Evernote disables ID attributes in its notes , so &lt;code&gt;footnote&lt;/code&gt; and &lt;code&gt;TOC&lt;/code&gt; are not actually working.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
 </description>
     </item>
     
