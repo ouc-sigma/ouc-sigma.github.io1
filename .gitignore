@@ -3,6 +3,6 @@
 
 # Hugo
 /resources/
-# public/
+public/
 assets/jsconfig.json
 update.bat
