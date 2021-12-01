@@ -1,6 +1,6 @@
 module github.com/wowchemy/starter-hugo-research-group
 
-go 0.83.1
+go 1.15
 
 require (
 	github.com/wowchemy/wowchemy-hugo-modules/wowchemy v0.0.0-20210526223849-81ba17522966 // indirect
