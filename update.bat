@@ -1,4 +1,4 @@
-rd /s/q .\public\
+rd /s/q .\docs\
 hugo -d docs
 git add .
 git commit -m 'update'
