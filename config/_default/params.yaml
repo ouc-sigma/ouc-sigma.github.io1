@@ -21,7 +21,7 @@ twitter: ''
 # Contact (edit or remove options as required)
 
 email: sigma_ouc@163.com
-phone: 888 888 88 88
+#phone: 888 888 88 88
 address:
   street: 松岭路238号
   city: 青岛
@@ -82,7 +82,7 @@ copyright_license:
   notice: 'This work is licensed under {license}'
 plugins_js: []
 avatar:
-  gravatar: false
+  gravatar: true
   shape: circle
 publications:
   date_format: January 2006
