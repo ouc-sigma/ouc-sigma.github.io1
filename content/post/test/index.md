@@ -47,7 +47,9 @@ class SomeClass:
 ```
 
 ### LaTeX expression
-$$	x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
+$$
+x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} 
+$$
 
 ### Table
 | Item      |    Value | Qty  |
